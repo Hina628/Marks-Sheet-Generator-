@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marks Sheet Generator!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>MarkSheet Calculator</h1>
+        <form id="marks-form">
+            <label for="subject1">Enter first subject name:</label>
+            <input type="text" id="subject1" required>
+
+            <label for="subject2">Enter second subject name:</label>
+            <input type="text" id="subject2" required>
+
+            <label for="subject3">Enter third subject name:</label>
+            <input type="text" id="subject3" required>
+
+            <label for="marks1">Enter obtained marks for first subject:</label>
+            <input type="number" id="marks1" required>
+
+            <label for="marks2">Enter obtained marks for second subject:</label>
+            <input type="number" id="marks2" required>
+
+            <label for="marks3">Enter obtained marks for third subject:</label>
+            <input type="number" id="marks3" required>
+
+            <button type="submit">Calculate</button>
+        </form>
+
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
